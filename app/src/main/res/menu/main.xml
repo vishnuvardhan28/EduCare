@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="Profile" android:id="@+id/profile"></item>
+    <item android:title="Home" android:id="@+id/Home"></item>
+    <item android:title="Dairy" android:id="@+id/dairy"></item>
+    <item android:title="Timetable" android:id="@+id/timetable"></item>
+    <item android:title="Attendance" android:id="@+id/attendance"></item>
+    <item android:title="Results" android:id="@+id/result"></item>
+    <item android:title="Communictor" android:id="@+id/communicator"></item>
+</menu>

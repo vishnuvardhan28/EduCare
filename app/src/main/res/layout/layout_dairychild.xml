@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tv_dt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="29/04/2020"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Concepts"
+        android:textSize="18sp"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+
+        android:text="Comment"
+
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_subcomments"
+        android:layout_width="match_parent"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+
+        android:layout_height="145dp" />
+
+    <TextView
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="HomeWork"
+        android:textSize="18sp"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_subhomework"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+
+        android:layout_width="match_parent"
+        android:layout_height="151dp" />
+</LinearLayout>
